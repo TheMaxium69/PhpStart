@@ -8,15 +8,17 @@
 </head>
 <body>
 <?php
-
+//boucle
 for ($i = 1; ; $i++) {
     if ($i > 5) {
         break;
     }
     echo $i;
 }
-
-
+?>
+<br>
+<?php
+//condition
 $prenom = "Luc";
 $nomDeFamille = "Depuis";
 
@@ -31,7 +33,7 @@ if($prenom == "Luc"){
 $colorBtn = "btn-". $color;
 ?>
 
-
+<br>
 <button type="button" class="btn <?php echo $colorBtn; ?>"><?php echo $texteDuBouton; ?></button>
 <br>
 <p style="color: red;"><?php echo "coucou"; ?></p>
